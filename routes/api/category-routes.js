@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
   })
     .then(dbCatData => res.json(dbCatData))
     .catch(err => {
-      res.status(200).json(err);
+      res.status(500).json(err);
     });
 });
 
