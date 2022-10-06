@@ -15,3 +15,7 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`App running on port ${PORT}!`));
 });
+
+
+// Credits: Parts of this codebase may reference the lesson materials of the University of Toronto coding Bootcamp
+// Tutoring and assisting team from the University of Toronto have provided guidance when blockers appeared.
